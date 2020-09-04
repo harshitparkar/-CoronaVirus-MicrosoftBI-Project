@@ -1,0 +1,681 @@
+{
+  "CallbackList": {
+    "_type": "glue.external.echo.list.CallbackList",
+    "values": [
+      "LayerState"
+    ]
+  },
+  "CallbackList_0": {
+    "_type": "glue.external.echo.list.CallbackList",
+    "values": [
+      "ScatterLayerState"
+    ]
+  },
+  "CallbackList_1": {
+    "_type": "glue.external.echo.list.CallbackList",
+    "values": [
+      "ScatterLayerState_0"
+    ]
+  },
+  "CallbackList_2": {
+    "_type": "glue.external.echo.list.CallbackList",
+    "values": [
+      "ProfileLayerState"
+    ]
+  },
+  "CategoricalComponent": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 3
+  },
+  "CategoricalComponent_0": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 4
+  },
+  "CategoricalComponent_1": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 7
+  },
+  "CategoricalComponent_2": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 11
+  },
+  "Component": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 2
+  },
+  "Component_0": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 5
+  },
+  "Component_1": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 6
+  },
+  "Component_2": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 8
+  },
+  "Component_3": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 9
+  },
+  "Component_4": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 10
+  },
+  "Component_5": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 12
+  },
+  "Component_6": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 13
+  },
+  "Component_7": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 14
+  },
+  "Confirmed": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Confirmed"
+  },
+  "Confirmed Daily": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Confirmed Daily"
+  },
+  "CoordinateComponent": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": false
+  },
+  "CoordinateComponent_0": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": true
+  },
+  "Coordinates": {
+    "_type": "glue.core.coordinates.Coordinates"
+  },
+  "CoronaVirus PowerBI Raw": {
+    "_key_joins": [],
+    "_protocol": 5,
+    "_type": "glue.core.data.Data",
+    "components": [
+      [
+        "Pixel Axis 0 [x]",
+        "CoordinateComponent"
+      ],
+      [
+        "World 0",
+        "CoordinateComponent_0"
+      ],
+      [
+        "Unnamed: 0",
+        "Component"
+      ],
+      [
+        "Province/State",
+        "CategoricalComponent"
+      ],
+      [
+        "Country/Region",
+        "CategoricalComponent_0"
+      ],
+      [
+        "Lat",
+        "Component_0"
+      ],
+      [
+        "Long",
+        "Component_1"
+      ],
+      [
+        "Date",
+        "CategoricalComponent_1"
+      ],
+      [
+        "Confirmed",
+        "Component_2"
+      ],
+      [
+        "Deaths",
+        "Component_3"
+      ],
+      [
+        "Recovered",
+        "Component_4"
+      ],
+      [
+        "Month-Year",
+        "CategoricalComponent_2"
+      ],
+      [
+        "Confirmed Daily",
+        "Component_5"
+      ],
+      [
+        "Deaths Daily",
+        "Component_6"
+      ],
+      [
+        "Recovered Daily",
+        "Component_7"
+      ]
+    ],
+    "coords": "Coordinates",
+    "label": "CoronaVirus PowerBI Raw",
+    "meta": {
+      "_type": "collections.OrderedDict",
+      "contents": {}
+    },
+    "primary_owner": [
+      "Pixel Axis 0 [x]",
+      "World 0",
+      "Unnamed: 0",
+      "Province/State",
+      "Country/Region",
+      "Lat",
+      "Long",
+      "Date",
+      "Confirmed",
+      "Deaths",
+      "Recovered",
+      "Month-Year",
+      "Confirmed Daily",
+      "Deaths Daily",
+      "Recovered Daily"
+    ],
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.37,
+      "color": "#595959",
+      "linestyle": "solid",
+      "linewidth": 1,
+      "marker": "o",
+      "markersize": 3
+    },
+    "subsets": [],
+    "uuid": "fc5afff2-5ac3-4c5f-8d96-daa544a4f17a"
+  },
+  "Country/Region": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Country/Region"
+  },
+  "DataCollection": {
+    "_protocol": 4,
+    "_type": "glue.core.data_collection.DataCollection",
+    "cids": [
+      "Pixel Axis 0 [x]",
+      "World 0",
+      "Unnamed: 0",
+      "Province/State",
+      "Country/Region",
+      "Lat",
+      "Long",
+      "Date",
+      "Confirmed",
+      "Deaths",
+      "Recovered",
+      "Month-Year",
+      "Confirmed Daily",
+      "Deaths Daily",
+      "Recovered Daily"
+    ],
+    "components": [
+      "CoordinateComponent",
+      "CoordinateComponent_0",
+      "Component",
+      "CategoricalComponent",
+      "CategoricalComponent_0",
+      "Component_0",
+      "Component_1",
+      "CategoricalComponent_1",
+      "Component_2",
+      "Component_3",
+      "Component_4",
+      "CategoricalComponent_2",
+      "Component_5",
+      "Component_6",
+      "Component_7"
+    ],
+    "data": [
+      "CoronaVirus PowerBI Raw"
+    ],
+    "groups": [],
+    "links": [],
+    "subset_group_count": 1
+  },
+  "Date": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Date"
+  },
+  "Deaths": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Deaths"
+  },
+  "Deaths Daily": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Deaths Daily"
+  },
+  "Lat": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Lat"
+  },
+  "LayerState": {
+    "_type": "glue.viewers.common.state.LayerState",
+    "values": {
+      "layer": "CoronaVirus PowerBI Raw",
+      "visible": true,
+      "zorder": 1
+    }
+  },
+  "LinearSegmentedColormap": {
+    "_type": "matplotlib.colors.LinearSegmentedColormap",
+    "cmap": "gray"
+  },
+  "LoadLog": {
+    "_protocol": 1,
+    "_type": "glue.core.data_factories.helpers.LoadLog",
+    "factory": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.data_factories.helpers.auto_data"
+    },
+    "kwargs": [
+      []
+    ],
+    "path": "CoronaVirus PowerBI Raw.csv"
+  },
+  "Long": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Long"
+  },
+  "Month-Year": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Month-Year"
+  },
+  "Pixel Axis 0 [x]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 0,
+    "label": "Pixel Axis 0 [x]"
+  },
+  "ProfileLayerState": {
+    "_type": "glue.viewers.profile.state.ProfileLayerState",
+    "values": {
+      "alpha": 0.37,
+      "attribute": "Confirmed Daily",
+      "color": "st__#595959",
+      "layer": "CoronaVirus PowerBI Raw",
+      "linewidth": 1,
+      "percentile": 100,
+      "v_max": 35098.0,
+      "v_min": -15.0,
+      "visible": true,
+      "zorder": 1
+    }
+  },
+  "ProfileViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.profile.qt.data_viewer.ProfileViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.profile.qt.layer_artist.QThreadedProfileLayerArtist",
+        "state": "ProfileLayerState"
+      }
+    ],
+    "pos": [
+      881,
+      505
+    ],
+    "session": "Session",
+    "size": [
+      718,
+      400
+    ],
+    "state": {
+      "values": {
+        "aspect": "st__auto",
+        "function": "st__maximum",
+        "layers": "CallbackList_2",
+        "normalize": false,
+        "reference_data": "CoronaVirus PowerBI Raw",
+        "show_axes": true,
+        "x_att": "Pixel Axis 0 [x]",
+        "x_att_pixel": "Pixel Axis 0 [x]",
+        "x_axislabel": "st__Pixel Axis 0 [x]",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 21911.5,
+        "x_min": -0.5,
+        "x_ticklabel_size": 8,
+        "y_axislabel": "st__Data values",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 38609.3,
+        "y_min": -3526.3,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "Province/State": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Province/State"
+  },
+  "Recovered": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Recovered"
+  },
+  "Recovered Daily": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Recovered Daily"
+  },
+  "ScatterLayerState": {
+    "_type": "glue_vispy_viewers.scatter.layer_state.ScatterLayerState",
+    "values": {
+      "alpha": 0.37,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_attribute": "Unnamed: 0",
+      "cmap_limits_cache": "dict_6",
+      "cmap_vmax": 21911,
+      "cmap_vmin": 14,
+      "color": "st__#595959",
+      "color_mode": "st__Fixed",
+      "layer": "CoronaVirus PowerBI Raw",
+      "size": 3,
+      "size_attribute": "Unnamed: 0",
+      "size_limits_cache": "dict_7",
+      "size_mode": "st__Fixed",
+      "size_scaling": 0.8317637711026711,
+      "size_vmax": 21911,
+      "size_vmin": 14,
+      "visible": true,
+      "zorder": 1
+    }
+  },
+  "ScatterLayerState_0": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.37,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "Unnamed: 0",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 21911,
+      "cmap_vmin": 14,
+      "color": "st__#595959",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "CoronaVirus PowerBI Raw",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 3,
+      "size_att": "Unnamed: 0",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 21911,
+      "size_vmin": 14,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "Unnamed: 0",
+      "vy_att": "Unnamed: 0",
+      "xerr_att": "Unnamed: 0",
+      "xerr_visible": false,
+      "yerr_att": "Unnamed: 0",
+      "yerr_visible": false,
+      "zorder": 1
+    }
+  },
+  "ScatterViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.scatter.qt.data_viewer.ScatterViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_0"
+      }
+    ],
+    "pos": [
+      4,
+      507
+    ],
+    "session": "Session",
+    "size": [
+      877,
+      400
+    ],
+    "state": {
+      "values": {
+        "aspect": "st__auto",
+        "dpi": 71.30820648960312,
+        "layers": "CallbackList_1",
+        "show_axes": true,
+        "x_att": "Country/Region",
+        "x_axislabel": "st__Country/Region",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 190.7067761077341,
+        "x_min": -9.093223892265854,
+        "x_ticklabel_size": 8,
+        "y_att": "Confirmed",
+        "y_axislabel": "st__Confirmed",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 568089.8531578943,
+        "y_min": -58978.666842105245,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "Session": {
+    "_type": "glue.core.session.Session"
+  },
+  "TableViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.table.qt.data_viewer.TableViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.table.qt.data_viewer.TableLayerArtist",
+        "state": "LayerState"
+      }
+    ],
+    "pos": [
+      644,
+      0
+    ],
+    "session": "Session",
+    "size": [
+      958,
+      505
+    ],
+    "state": {
+      "values": {
+        "layers": "CallbackList"
+      }
+    }
+  },
+  "Unnamed: 0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Unnamed: 0"
+  },
+  "VispyScatterViewer": {
+    "_protocol": 1,
+    "_type": "glue_vispy_viewers.scatter.scatter_viewer.VispyScatterViewer",
+    "layers": [
+      {
+        "_type": "glue_vispy_viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState"
+      }
+    ],
+    "pos": [
+      2,
+      2
+    ],
+    "session": "Session",
+    "size": [
+      640,
+      503
+    ],
+    "state": {
+      "values": {
+        "clip_data": true,
+        "layers": "CallbackList_0",
+        "limits_cache": "dict",
+        "native_aspect": false,
+        "perspective_view": false,
+        "visible_axes": true,
+        "x_att": "Confirmed",
+        "x_max": 580618.9999999998,
+        "x_min": 5.820766091346741e-11,
+        "x_stretch": 1.5118196993608166,
+        "y_att": "Deaths",
+        "y_max": 23529.00000000001,
+        "y_min": -1.0913936421275139e-11,
+        "y_stretch": 1.5725338400769067,
+        "z_att": "Recovered",
+        "z_max": 64236.000000000044,
+        "z_min": -4.001776687800884e-11,
+        "z_stretch": 1.3433834696603657
+      }
+    }
+  },
+  "World 0": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "World 0"
+  },
+  "__main__": {
+    "_type": "glue.app.qt.application.GlueApplication",
+    "data": "DataCollection",
+    "plugins": [
+      "glue.plugins.dendro_viewer.qt",
+      "glue.viewers.table.qt",
+      "glue.plugins.tools.pv_slicer",
+      "glue.viewers.image.qt",
+      "glue.viewers.histogram.qt",
+      "glue.viewers.profile.qt",
+      "glue.plugins.export_d3po",
+      "glue.io.formats.fits",
+      "glue.viewers.scatter.qt",
+      "glue.plugins.wcs_autolinking",
+      "glue_vispy_viewers.volume",
+      "glue.core.data_exporters",
+      "glue_vispy_viewers.scatter",
+      "glue.plugins.coordinate_helpers",
+      "glue.plugins.tools"
+    ],
+    "session": "Session",
+    "tab_names": [
+      "Tab 1"
+    ],
+    "viewers": [
+      [
+        "TableViewer",
+        "VispyScatterViewer",
+        "ScatterViewer",
+        "ProfileViewer"
+      ]
+    ]
+  },
+  "dict": {
+    "_type": "builtins.dict",
+    "contents": {
+      "Confirmed": "dict_3",
+      "Deaths": "dict_4",
+      "Lat": "dict_1",
+      "Long": "dict_2",
+      "Recovered": "dict_5",
+      "Unnamed: 0": "dict_0"
+    }
+  },
+  "dict_0": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 0.0,
+      "st__upper": 21911.0
+    }
+  },
+  "dict_1": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -51.7963,
+      "st__upper": 71.7069
+    }
+  },
+  "dict_2": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -135.0,
+      "st__upper": 178.065
+    }
+  },
+  "dict_3": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 5.820766091346741e-11,
+      "st__upper": 580618.9999999998
+    }
+  },
+  "dict_4": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -1.0913936421275139e-11,
+      "st__upper": 23529.00000000001
+    }
+  },
+  "dict_5": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": -4.001776687800884e-11,
+      "st__upper": 64236.000000000044
+    }
+  },
+  "dict_6": {
+    "_type": "builtins.dict",
+    "contents": {
+      "Unnamed: 0": "dict_8"
+    }
+  },
+  "dict_7": {
+    "_type": "builtins.dict",
+    "contents": {
+      "Unnamed: 0": "dict_9"
+    }
+  },
+  "dict_8": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 14,
+      "st__upper": 21911
+    }
+  },
+  "dict_9": {
+    "_type": "builtins.dict",
+    "contents": {
+      "st__lower": 14,
+      "st__upper": 21911
+    }
+  }
+}
